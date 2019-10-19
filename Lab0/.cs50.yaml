@@ -1,0 +1,10 @@
+check50:
+  checks:
+    income:
+      - run: python3 Lab0.py
+        stdin: 20
+        stdin: 30
+        stdout: Hours = 30
+        stdout: Hourly pay rate = $20.00
+        stdout: Gross pay = $600.00
+        exit: 0
